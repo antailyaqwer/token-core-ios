@@ -22,3 +22,8 @@ module CoreBitcoin [system] {
   header "../Vendor/CoreBitcoin/NS+BTCBase58.h"
   export *
 }
+
+module GRKOpenSSLFramework [system] {
+  header "../fix/GRKOpenSSLFramework/OpenSSL-iOS/bin/openssl.framework/Headers/*"
+  export *
+}
