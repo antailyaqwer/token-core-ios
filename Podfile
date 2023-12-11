@@ -8,6 +8,8 @@ target "TokenCore" do
 
   pod 'SwiftLint'
 
+  pod "CoreBitcoin", git: "https://github.com/antailyaqwer/CoreBitcoin.git", branch: "master"
+
   target "TokenCoreTests" do
     inherit! :search_paths
   end

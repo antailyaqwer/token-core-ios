@@ -21,7 +21,6 @@ Pod::Spec.new do |s|
   s.swift_version = "4.0"
   s.dependency "CryptoSwift", "0.9.0"
   s.dependency "BigInt", "3.0.0"
-  s.dependency "CoreBitcoin"
   s.dependency "secp256k1.swift"
   s.static_framework = true
 end
