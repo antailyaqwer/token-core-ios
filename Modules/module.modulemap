@@ -23,7 +23,7 @@ module CoreBitcoin [system] {
   export *
 }
 
-module GRKOpenSSLFramework [system] {
-  header "../fix/GRKOpenSSLFramework/OpenSSL-iOS/bin/openssl.framework/Headers/*"
+module GRKOpenSSLFramework [system][extern_c] {
+  header "../fix/GRKOpenSSLFramework/OpenSSL-iOS/bin/openssl.framework/Headers/openssl.h"
   export *
 }
